@@ -1,0 +1,55 @@
+/* small decive */
+@media(max-width:767px){
+    .header-text,.header-btns {
+        margin: 0 2em;
+    }
+    .navbar-header,.navbar-default{
+        background-color: #fff !important;
+        border-color: #e6e6e6;
+    }
+    .header-iphone img{
+        display: none;
+    }
+    .massege-box{
+        margin-left: 0;
+    }
+    .submit-btn, .submit-btn:active, .submit-btn:focus, .submit-btn:visited{
+        margin-left: 0;
+    }
+    .responsiveimg{
+        width: 100%;
+    }
+    .purchase-wraffer{
+        text-align: center;
+    }
+    .btn-purchase{
+        margin: 2em 0;
+    }
+    .social-icone ul li{
+        margin: 0 0.2em;
+    }
+}
+
+/* small decive and tablet */
+
+@media only screen and (max-width:768px){
+    .header-text{
+        text-align: center;
+    }
+    .header-btns a{
+        width: 17rem;
+        display: block;
+        margin: 2rem auto;
+    }
+}
+
+/* medium decive and dekstop */
+
+@media only screen and(min-width:992px){
+
+}
+
+/* large device  */
+@media only screen and(min-width:1200px){
+
+}
